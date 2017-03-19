@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta charset="utf-8" />
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="msapplication-tap-highlight" content="no" />
+		
+  <!-- Include meta tag to ensure proper rendering and touch zooming -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		
+  <!-- Include jQuery Mobile stylesheets -->
+  <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Lobster|Anton|Patua+One' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/fact_page.css">
+  <title>Ed Sheeran Facts!</title>
+</head>
+
+
+<body>
+	<div data-role="page" id="pageone">
+  <div data-role="header">
+    <h1>Ed Sheeran - Fact of the Day</h1>
+  </div>
+
+  <div id="deviceready" data-role="main" class="ui-content">
+    <h2 id="todayh2" class="invisible"> Today's Ed Sheeran Fact:</h2>
+    <div id="quotebox" class="PulseEffect icon">
+      <div id="ShineDiv" class="shine"></div>
+      <div class="facebox fade icon">
+      	 <div id="ShineDiv2" class=""></div>
+      </div>
+      <p class="hidden" id="qotd"> Welcome to<br><strong>Ed Sheeran Facts!</strong><br><br>You will get a random fact each day.</p>
+    </div>
+    <a id="nextQ" class="" data-role="button" data-ajax="false">View Fact</a>
+    <div class="XPmeter animateXP" >
+    	    <span id="bar" style="width: 20%"></span>
+          <div id="medaldiv">
+											<img id="medal" src="images/medal3.svg"><p id="lvl">1</p>
+          </div>
+    </div>
+  </div>
+
+  <div data-role="footer">
+    <h1>New Features Coming Soon!</h1>
+  </div>
+</div>
+ 
+ <!--  --------------------JS------------------------ -->
+  <script src="./js/jquery-1.11.3.min.js"></script>
+  <script src="./js/jquery.mobile-1.4.5.min.js"></script>
+<!--  <script type="text/javascript" charset="utf-8" src="cordova.js"></script>-->
+  <script type="text/javascript" src="js/app_scripts.js"></script>
+  <script type="text/javascript">
+            app.initialize();
+  </script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.phonegap.ODA_SM_16" version="1.0.0">
+  <name>One Direction Facts</name>
+  <description>Become a One Direction super fan these facts!</description>
+  <author href="" email="badrush14@hotmail.com">MoshiMedia</author>
+  <content src="index.html"/>
+  <preference name="permissions" value="none"/>
+  <preference name="orientation" value="default"/>
+  <preference name="target-device" value="universal"/>
+  <preference name="fullscreen" value="true"/>
+  <preference name="webviewbounce" value="true"/>
+  <preference name="prerendered-icon" value="true"/>
+  <preference name="stay-in-webview" value="false"/>
+  <preference name="ios-statusbarstyle" value="black-opaque"/>
+  <preference name="detect-data-types" value="true"/>
+  <preference name="exit-on-suspend" value="false"/>
+  <preference name="show-splash-screen-spinner" value="true"/>
+  <preference name="auto-hide-splash-screen" value="true"/>
+  <preference name="disable-cursor" value="false"/>
+  <preference name="android-minSdkVersion" value="9"/>
+  <preference name="android-installLocation" value="auto"/>
+<!--  <gap:plugin name="org.apache.cordova.battery-status"/>-->
+<!--  <gap:plugin name="org.apache.cordova.camera"/>-->
+<!--  <gap:plugin name="org.apache.cordova.media-capture"/>-->
+<plugin name="cordova-plugin-console" spec="~1.0.4" />
+<!--  <gap:plugin name="org.apache.cordova.contacts"/>-->
+<!--  <gap:plugin name="org.apache.cordova.device"/>-->
+<!--  <gap:plugin name="org.apache.cordova.device-motion"/>-->
+<!--  <gap:plugin name="org.apache.cordova.device-orientation"/>-->
+<!--  <gap:plugin name="org.apache.cordova.dialogs"/>-->
+<plugin name="cordova-plugin-file" spec="~4.3.0" />
+<plugin name="cordova-plugin-file-transfer" spec="~1.6.0" />
+<!--  <gap:plugin name="org.apache.cordova.geolocation"/>-->
+<!--  <gap:plugin name="org.apache.cordova.globalization"/>-->
+<!--  <gap:plugin name="org.apache.cordova.inappbrowser"/>-->
+<!--  <gap:plugin name="org.apache.cordova.media"/>-->
+<!--  <gap:plugin name="org.apache.cordova.network-information"/>-->
+<!--  <gap:plugin name="org.apache.cordova.splashscreen"/>-->
+<!--  <gap:plugin name="org.apache.cordova.vibration"/>-->
+<!--  <gap:plugin name="cordova-plugin-admob" source="npm" />-->
+<!--<plugin name="com.admob.google" spec="4.0.8" source="pgb" />-->
+<gap:plugin name="phonegap-admob" source="npm"/>
+
+  
+  <icon src="icon.png"/>
+  <platform name="ios">
+    <icon src="icon.png" width="300" height="300" />
+		</platform>
+		<platform name="android">
+    <icon src="icon.png" width="300" height="300" />
+		</platform>
+				<platform name="winphone">
+    <icon src="icon.png" width="300" height="300" />
+		</platform>
+  
+  <platform name="android" />
+<!--  <platform name="ios" />-->
+<!--		<platform name="winphone" />-->
+  <preference name="orientation" value="portrait" />
+  
+	<!-- Android Icons -->
+ <icon src="./images/android/mipmap-ldpi/ic_launcher.png" platform="android" qualifier="ldpi" />
+ <icon src="./images/android/mipmap-mdpi/ic_launcher.png" platform="android" qualifier="mdpi" />
+	<icon src="./images/android/mipmap-hdpi/ic_launcher.png" platform="android" qualifier="hdpi" />
+	<icon src="./images/android/mipmap-xhdpi/ic_launcher.png" platform="android" qualifier="xhdpi" />
+	<icon src="./images/android/mipmap-xxhdpi/ic_launcher.png" platform="android" qualifier="xxhdpi" />
+	<icon src="./images/android/mipmap-xxxhdpi/ic_launcher.png" platform="android" qualifier="fr-xxhdpi" />
+	
+	 <!-- iPhone 6 / 6+ -->
+<icon src="./images/ios/AppIcon.appiconset/Icon-60@3x.png" platform="ios" width="180" height="180" />
+
+<!-- iPhone / iPod Touch  -->
+<icon src="./images/ios/Icon-60.png" platform="ios" width="60" height="60" />
+<icon src="./images/ios/AppIcon.appiconset/Icon-60@2x.png" platform="ios" width="120" height="120" />
+
+<!-- iPad -->
+<icon src="./images/ios/AppIcon.appiconset/Icon-76.png" platform="ios" width="76" height="76" />
+<icon src="./images/ios/AppIcon.appiconset/Icon-76@2x.png" platform="ios" width="152" height="152" />
+
+<!-- Settings Icon -->
+<icon src="./images/ios/AppIcon.appiconset/Icon-Small.png" platform="ios" width="29" height="29" />
+<icon src="./images/ios/AppIcon.appiconset/Icon-Small@2x.png" platform="ios" width="58" height="58" />
+
+<!-- Spotlight Icon -->
+<icon src="./images/ios/AppIcon.appiconset/Icon-40.png" platform="ios" width="40" height="40" />
+<icon src="./images/ios/AppIcon.appiconset/Icon-40@2x.png" platform="ios" width="80" height="80" />
+	
+
+</widget>
